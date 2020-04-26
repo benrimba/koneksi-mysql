@@ -1,4 +1,4 @@
-# koneksi-mysql
+# Koneksi php mysql berdasarkan versi php / Migrasi php5 ke php7
 Untuk penjelasannya silahkan ke link video ini [Youtube](https://www.youtube.com/watch?v=GYCvakl-BP0)
 macam-macam koneksi database MySql di php
 ## php5
