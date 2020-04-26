@@ -2,6 +2,7 @@
 Untuk penjelasannya silahkan ke link video ini [Youtube](https://www.youtube.com/watch?v=GYCvakl-BP0)
 macam-macam koneksi database MySql di php
 ## php5
+```php
 <?php
   mysql_connect('localhost','root','');
   $con = mysql_select_db('nama_database');
@@ -9,8 +10,10 @@ macam-macam koneksi database MySql di php
     echo"Koneksi mysql";
   }
  ?>
+ ```
 ## php7
  ### versi prosedural
+ ```php
 <?php
   $db=mysqli_connect("localhost","root","");
   $con = mysqli_select_db($db,"nama_database");
@@ -18,13 +21,16 @@ macam-macam koneksi database MySql di php
     echo"koneksi mysqli";
   }
  ?>
+ ```
 # versi OOP(Object Oriented Programming)
+```php
  <?php
   $db=new mysqli("localhost","root","","dbgenerasimadani");
   if($db){
     echo"koneksi new mysqli";
   }
  ?>
+ ```
 #Koneksi PDO(Php Data Object)
 Digunakan PHP untuk “berkomunikasi” dengan database server bisa MySQl, SQL Server dll.
 <?php
