@@ -22,7 +22,7 @@ macam-macam koneksi database MySql di php
   }
  ?>
  ```
-# versi OOP(Object Oriented Programming)
+### versi OOP(Object Oriented Programming)
 ```php
  <?php
   $db=new mysqli("localhost","root","","nama_database");
