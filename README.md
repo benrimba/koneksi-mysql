@@ -1,7 +1,7 @@
 # koneksi-mysql
 
 macam-macam koneksi database MySql di php
-## - php5
+## php5
 <?php
   mysql_connect('localhost','root','');
   $con = mysql_select_db('nama_database');
@@ -9,7 +9,7 @@ macam-macam koneksi database MySql di php
     echo"Koneksi mysql";
   }
  ?>
-## - php7
+## php7
  ### versi prosedural
 <?php
   $db=mysqli_connect("localhost","root","");
