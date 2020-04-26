@@ -4,8 +4,8 @@ macam-macam koneksi database MySql di php
 ## php5
 ```php
 <?php
-  mysql_connect('localhost','root','');
-  $con = mysql_select_db('nama_database');
+  $host =mysql_connect('localhost','root','');
+  $con = mysql_select_db($host,'nama_database');
   if($con){
     echo"Koneksi mysql";
   }
