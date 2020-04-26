@@ -25,7 +25,7 @@ macam-macam koneksi database MySql di php
 # versi OOP(Object Oriented Programming)
 ```php
  <?php
-  $db=new mysqli("localhost","root","","dbgenerasimadani");
+  $db=new mysqli("localhost","root","","nama_database");
   if($db){
     echo"koneksi new mysqli";
   }
@@ -33,6 +33,7 @@ macam-macam koneksi database MySql di php
  ```
 #Koneksi PDO(Php Data Object)
 Digunakan PHP untuk “berkomunikasi” dengan database server bisa MySQl, SQL Server dll.
+```php
 <?php
 try {
   $host = new PDO('mysql:host=localhost;dbname=nama_database', "root", "");
@@ -43,3 +44,4 @@ catch (PDOException $e) {
 }
 echo "Koneksi berhasil";
 ?>
+```
