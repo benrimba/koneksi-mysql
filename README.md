@@ -32,7 +32,7 @@ macam-macam koneksi database MySql di php
  ?>
  ```
 # Koneksi PDO(Php Data Object)
-Digunakan PHP untuk “berkomunikasi” dengan database server bisa MySQl, SQL Server dll.
+Digunakan PHP untuk “berkomunikasi” dengan database server bisa MySql, SQL Server dll.
 ```php
 <?php
 try {
