@@ -15,8 +15,8 @@ macam-macam koneksi database MySql di php
  ### versi prosedural
  ```php
 <?php
-  $db=mysqli_connect("localhost","root","");
-  $con = mysqli_select_db($db,"nama_database");
+  $con=mysqli_connect("localhost","root","");
+  //$con = mysqli_select_db($db,"nama_database");
   if($con){
     echo"koneksi mysqli";
   }
